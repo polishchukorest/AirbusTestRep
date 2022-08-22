@@ -1,0 +1,10 @@
+The list of modules used:
+  1.Tensorflow
+  2.Keras
+  3.numpy
+  4.pandas
+  5.PIL
+  6.Matplotlib
+  7.os
+  8.sklearn
+
