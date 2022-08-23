@@ -34,13 +34,13 @@ Epoch 2/3
 Epoch 3/3
 207/207 [==============================] - 3731s 18s/step - loss: 0.0083 - get_f1: 0.2416 - binary_io_u: 0.5732 - val_loss: 0.0122 - val_get_f1: 0.1693 - val_binary_io_u: 0.5332
 
-6 Inference:
-   6.1. prediction_convert is taking an array of predictions and returning 1 bit image, with def. threshold 0.5.
-   6.2. I loaded the model, 1 random image from test was taken, the model outputed a prediction resulting in a corresponding 1bit mask.
-   
+6 Inference:  
+   6.1. prediction_convert is taking an array of predictions and returning 1 bit image, with def. threshold 0.5.  
+   6.2. I loaded the model, 1 random image from test was taken, the model outputed a prediction resulting in a corresponding 1bit mask.  
+    
 
-Sources:
-https://www.kaggle.com/code/iafoss/unet34r-ship-detection [1]
-https://keras.io/examples/vision/oxford_pets_image_segmentation/ [2]
-https://github.com/bnsreenu/python_for_image_processing_APEER/blob/master/tutorial117_building_unet_using_encoder_decoder_blocks.ipynb [3]
-https://aakashgoel12.medium.com/how-to-add-user-defined-function-get-f1-score-in-keras-metrics-3013f979ce0d [4]
+Sources:  
+https://www.kaggle.com/code/iafoss/unet34r-ship-detection [1]  
+https://keras.io/examples/vision/oxford_pets_image_segmentation/ [2]  
+https://github.com/bnsreenu/python_for_image_processing_APEER/blob/master/tutorial117_building_unet_using_encoder_decoder_blocks.ipynb [3]  
+https://aakashgoel12.medium.com/how-to-add-user-defined-function-get-f1-score-in-keras-metrics-3013f979ce0d [4]  
