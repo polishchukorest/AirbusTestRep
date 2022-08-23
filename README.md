@@ -4,8 +4,8 @@ My solution
 Introduction:  
 To test train.py of my solution two directories with original images(test_v2, train_v2) should be copied to the project as well as train_ship_segmentations_v2.csv  
 All this can be downloaded from https://www.kaggle.com/c/airbus-ship-detection/data  
+The variables of the model for model inference is located here https://drive.google.com/drive/folders/1B9DF5rAwryz1NlwVUlCok29PJBkJRDQ2?usp=sharing, they should be put into model_saved_final\variables folder.
 My solution did not use any GPU resources because tensorflow couldn't detect CUDA library dlls. So, there was only 3 epochs with approximately 1-2k images, batch was 8 images.  
-The variables of the model for model inference is located here https://drive.google.com/drive/folders/1B9DF5rAwryz1NlwVUlCok29PJBkJRDQ2?usp=sharing  
 
   
 1. Exploratory data analysis:  
