@@ -8,3 +8,7 @@ The list of modules used:
   7.os
   8.sklearn
 
+!For model inference please load variables from here: https://drive.google.com/drive/folders/1B9DF5rAwryz1NlwVUlCok29PJBkJRDQ2?usp=sharing 
+they should be put into model_saved_final\variables seperate folder.
+
+!For training please download the dataset from here: https://www.kaggle.com/c/airbus-ship-detection/data. Please put train_v2 and test_v2 folders and train_ship_segmentations_v2.csv file into the root folder.
